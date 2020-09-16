@@ -8,9 +8,9 @@
     <script src="https://kit.fontawesome.com/89c0957ca7.js" crossorigin="anonymous"></script>    
     <title>Newsweek</title>
 </head>
-<body class="bg-light container">
+<body class="bg-light">
 
-    <header>
+    <header class="container">
         <!-- <nav class="navbar bg-danger py-4">
             <div class="row">
                 <div class="col">sada</div>
@@ -26,56 +26,115 @@
             </ul>
         </nav> -->
         <div class="container">
-            <div class="row py-3 bg-danger align-items-center">
-                <div class="col text-white">
-                    <div class="col">
-                        <a class="text-white" href="#">
-                            <img width="24px" src="/assets/images/weather-icon.png" alt="weather-icon"> 
-                            <span>27&#xb0; Eskisehir, TR &gt;</span>
-                        </a> 
-                    </div>
-                    <div class="col"><span>Wed, Sep 16,2020</span></div>
+            <div class="row bg-danger align-items-center justify-content-between">
+                <div class="col-3 text-white d-none d-md-none d-sm-none d-lg-block">
+                        <ul class="nav pl-2">
+                            <li>
+                                <a class="text-white" href="#">
+                                    <img width="24px" src="/assets/images/weather-icon.png" alt="weather-icon"> 
+                                    <span>27&#xb0; Eskisehir, TR &gt;</span>
+                                </a>
+                            </li>
+                            <li>
+                                <span>Wed, Sep 16,2020</span>
+                            </li>
+                        </ul>
                 </div>
-                <div class="col"><img class="navbar-brand  "src="/assets/images/logo.svg" alt="Newsweek logo"></div>
-                <div class="col">
-                    <div class="row align-items-center justify-content-end pr-5">
-                        <div class="col-2 mr-3 "><a class="text-white" href="#">LOGIN</a></div>
-                        <div class="col-3 pt-0"><a href="#" class="badge text-dark p-2 badge-pill badge-warning">SUBSCRIBE &gt;</a></div>
-                    </div>
-                </div>
+                <div class="col-lg-5 col-md-2 col- mx-lg-auto "><img src="/assets/images/logo.svg" alt="Newsweek logo"></div>
+                <div class="col-lg-3 col-4">
+                    <ul class="d-flex mt-lg-5 my-3">
+                        <li class="d-sm-none d-md-block d-lg-block mr-4">
+                            <a class="text-white" href="#">LOGIN</a>
+                        </li>
+                        <li class="pr-2 d-lg-none d-md-none d-sm-block">
+                            <a class="text-white" href="#"><i class="far fa-user-circle"></i></a>
+                        </li>
+                        <li class="pr-2 ">
+                            <a href="#" class="badge text-dark badge-pill badge-warning">SUBSCRIBE &gt;</a>
+                        </li>
+                        <li class="pr-2 d-lg-none d-md-block d-sm-block">
+                            <a class="text-white" href="#"><i class="fas fa-bars"></i></a>
+                        </li>
+                    </ul>
+                </div>  
             </div>
         </div>
 
-        <nav class="navbar navbar-light bg-white text-dark navbar-expand-sm">
-            <ul class="navbar-nav firstNav py-2">
-                <li class="nav-item contact"><a class="nav-link mr-2 border-right" href="#">U.S.</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">World</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">Business</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">Tech & Science</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">Culture</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">Newsgeek</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">Sports</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">Health</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">The Debate</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">Vantage</a></li>
-                <li class="nav-item"><a class="nav-link mr-2 border-right" href="#">Weather</a></li>
-                <li class="nav-item"><a class="nav-link disabled" href="#">Search <i class="fas fa-search"></i></a></li>
-            </ul>
-        </nav>
-        <nav class="navbar secondNav navbar-light bg-white navbar-expand-sm border-top border-bottom py-1">
-            <ul class="navbar-nav">
-                <li class="nav-item ml-3 mr-2"><a href="#" class="nav-link active">TRENDING</a></li>
-                <li class="nav-item mr-2"><a href="#" class="nav-link">DONALD TRUMP</a></li>
-                <li class="nav-item mr-2"><a href="#" class="nav-link">JOE BIDEN</a></li>
-                <li class="nav-item mr-2"><a href="#" class="nav-link">CHINA</a></li>
-                <li class="nav-item mr-2"><a href="#" class="nav-link">CORONAVIRUS</a></li>
-                <li class="nav-item mr-2"><a href="#" class="nav-link">2020 ELECTION</a></li>
-            </ul>
-        </nav>
+        <div class="d-none d-lg-block">
+            <nav class="navbar navbar-light bg-white text-dark navbar-expand-sm">
+                <ul class="navbar-nav firstNav py-2">
+                    <li class="nav-item contact"><a class="nav-link mr-2 border-right" href="#">U.S.</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">World</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">Business</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">Tech & Science</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">Newsgeek</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">Health</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">The Debate</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">Vantage</a></li>
+                    <li class="nav-item"><a class="nav-link mr-1 border-right" href="#">Weather</a></li>
+                    <li class="nav-item"><a class="nav-link disabled" href="#">Search <i class="fas fa-search"></i></a></li>
+                </ul>
+            </nav>
+            <nav class="navbar secondNav navbar-light bg-white navbar-expand-sm border-top border-bottom py-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item ml-3 mr-2"><a href="#" class="nav-link active">TRENDING</a></li>
+                    <li class="nav-item mr-2"><a href="#" class="nav-link">DONALD TRUMP</a></li>
+                    <li class="nav-item mr-2"><a href="#" class="nav-link">JOE BIDEN</a></li>
+                    <li class="nav-item mr-2"><a href="#" class="nav-link">CHINA</a></li>
+                    <li class="nav-item mr-2"><a href="#" class="nav-link">CORONAVIRUS</a></li>
+                    <li class="nav-item mr-2"><a href="#" class="nav-link">2020 ELECTION</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+       
 
-    
+    <main class="container my-3">
+        <div class="row">
+            <section class="col">
+                <h3>FEATURED STORIES</h3>
+                <div class="card my-2">
+                    <img src="/assets/images/syria.jpg" alt="">
+                    <div class="card-img-overlay position-absolute">
+                        dsa
+                    </div>
+                    <h5 class="card-title">
+                       <a href="">
+                       The Trump Campaign Believes It Has Biden On the Ropes. Here's Why</a> 
+                    </h6>
+                    <p class="card-text">Campaign manager Bill Stepien is reassuring nervous Republican donors that despite being outspent so far, the president's campaign has big plans.</p>
+                </div>
+                
+            </section>
+            <section class="col">
+                <h5>TOP STORY</h3>
+            </section>
+            <section class="col">
+                <h5>THE DEBATE</h3>
+            </section>
+
+        </div>
+    </main>
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
