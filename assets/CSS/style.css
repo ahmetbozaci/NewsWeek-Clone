@@ -1,0 +1,34 @@
+/*
+  ========================================
+  Navigation Bar
+  ========================================
+*/
+.container{
+    max-width: 1300px;
+
+}
+
+.firstNav .nav-item .nav-link  {
+    line-height: 0.5rem;
+    color: #000 ;
+    font-weight: 700;
+    font-size: 1rem; 
+}
+
+.firstNav .nav-item i  {
+    line-height: 0.5rem; 
+}
+
+ .firstNav .nav-item .nav-link:hover {
+    color: #f72210; 
+}
+
+.secondNav .nav-item .nav-link {
+    font-size: 0.9rem;
+    color: #807f84;
+    font-weight: 700;
+}
+
+/* .secondNav .nav-item .nav-link:hover {
+    color: #f72210; 
+} */
