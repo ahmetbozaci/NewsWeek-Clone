@@ -10,23 +10,9 @@
 </head>
 <body class="bg-light">
 
-    <header class="container">
-        <!-- <nav class="navbar bg-danger py-4">
-            <div class="row">
-                <div class="col">sada</div>
-                <div class="col">sa</div>
-            </div>
-        
-            <img class="navbar-brand  "src="/assets/images/logo.svg" alt="Newsweek logo">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a href="" class="nav-link">LOGIN</a></li>
-                <li class="nav-item"><a href="" class="nav-link">
-                    <button type="button" class="btn btn-primary">Primary</button>
-                </a></li>
-            </ul>
-        </nav> -->
+    <header class="mx-5">
         <div class="container-fluid">
-            <div class="row bg-danger align-items-center justify-content-between" id="test">
+            <div class="row bg-danger align-items-center justify-content-between">
                 <div class="col-3 text-white d-none d-md-none d-sm-none d-lg-block">
                         <ul class="nav pl-2">
                             <li>
@@ -40,13 +26,17 @@
                             </li>
                         </ul>
                 </div>
-                <div class="col-lg-5 col-3 mx-lg-auto logo"><img src="/assets/images/logo.svg" alt="Newsweek logo"></div>
-                <div class="col-lg-2 col-1 mr-5">
-                    <div class="d-flex mt-lg-5 my-3 ">
-                        <a class="text-white d-none d-md-block d-lg-block mr-4" href="#">LOGIN</a>
-                        <a class="text-white pr-2 d-none d-md-none d-block" href="#"><i class="far fa-user-circle"></i></a>
-                        <a href="#" class="badge text-dark badge-pill badge-warning ">SUBSCRIBE &gt;</a>
-                        <a class="text-white pr-2 d-lg-none d-md-block d-sm-block" href="#"><i class="fas fa-bars"></i></a>
+                <div class="col-lg-4 col-1 mx-lg-auto logo"><img src="/assets/images/logo.svg" alt="Newsweek logo"></div>
+                <div class="col-lg-3 col-1">
+                    <div class="d-flex mt-lg-5 my-3 justify-content-end align-items-center">
+                        <a class="text-white d-none d-md-block d-lg-block pr-3" href="#">LOGIN</a>
+                        <a class="text-white pr-2 d-none d-md-none d-block" href="#">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                        <a href="#" class="badge text-dark badge-pill badge-warning">SUBSCRIBE &gt;</a>
+                        <a class="text-white d-lg-none d-md-block d-sm-block pl-3" href="#">
+                            <i class="fas fa-bars fa-lg"></i>
+                        </a>
                     </div>
                 </div>  
             </div>
@@ -55,18 +45,19 @@
         <div class="d-none d-lg-block text-nowrap ">
             <nav class="navbar navbar-light bg-white text-dark navbar-expand-sm px-1">
                 <ul class="navbar-nav firstNav py-2">
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">U.S.</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">World</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">Business</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">Tech & Science</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">Culture</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">Newsgeek</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">Sports</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">Health</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">The Debate</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto px-xl-3 border-right" href="#">Vantage</a></li>
-                    <li class="nav-item"><a class="nav-link px-auto pr-xl-1 pl-xl-3 " href="#">Weather</a></li>
-                    <li class="nav-item"><a class="nav-link disabled pt-1" href="#">Search <i  class="fas fa-search"></i></a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">U.S.</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">World</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">Business</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">Tech & Science</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">Newsgeek</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">Health</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">The Debate</a></li>
+                    <li class="nav-item"><a class="nav-link   border-right" href="#">Vantage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
+                    <li class="nav-item"><a class="nav-link disabled pt-1" href="#">Search 
+                        <i  class="fas fa-search"></i></a></li>
                 </ul>
             </nav>
             <nav class="navbar secondNav navbar-light bg-white navbar-expand-sm border-top border-bottom py-0">
@@ -83,28 +74,259 @@
     </header>
        
 
-    <main class="container my-3">
-        <div class="row">
+    <main class=" mx-5 bg-white pt-4">
+        <div class="row container mx-2 lg-justify-content-between">
+
             <section class="col">
-                <h3>FEATURED STORIES</h3>
-                <div class="card my-2">
-                    <img src="/assets/images/syria.jpg" alt="">
-                    <div class="card-img-overlay position-absolute">
-                        dsa
-                    </div>
+                <h6>FEATURED STORIES</h6>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article1.jpg"          alt="article1">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">WORLD</a>
+                        </figcaption>
+                    </figure>
                     <h5 class="card-title">
-                       <a href="">
-                       The Trump Campaign Believes It Has Biden On the Ropes. Here's Why</a> 
-                    </h6>
-                    <p class="card-text">Campaign manager Bill Stepien is reassuring nervous Republican donors that despite being outspent so far, the president's campaign has big plans.</p>
+                       <a href="#">
+                        As U.S.-China Cyber Cold War Rages, Intellectual Property Is A Costly Front
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        "The theft of intellectual property by the People's Republic of China costs America as much as $500 billion a year," U.S. counterintelligence chief William Evanina told Newsweek.
+                    </p>
                 </div>
-                
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article2.jpg"          alt="article2">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">NEWS</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Apple Helps FBI Nab Cop Car Firebomber After Refusing to Unlock San Bernardino Gunman's iPhone                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        Apple CEO Tim Cook resisted the FBI's request in 2016 to unlock the iPhone of a suspect in the San Bernardino shooting.                    
+                    </p>
+                </div>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article3.jpg"          alt="article3">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">U.S.</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Georgia GOP Senator Calls for Judiciary Committee to Investigate 'Cuties'                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        Senator Kelly Loeffler wrote that the Netflix film "has raised new concerns about the entertainment industry's complicity in sexualizing children, which also fuels predators."                   
+                    </p>
+                </div>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article4.jpg"          alt="article4">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">POLITICS</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Georgia GOP Senator Calls for Judiciary Committee to Investigate 'Cuties'                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        Senator Kelly Loeffler wrote that the Netflix film "has raised new concerns about the entertainment industry's complicity in sexualizing children, which also fuels predators."                   
+                    </p>
+                </div>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article5.jpg"          alt="article5">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">U.S.</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Georgia GOP Senator Calls for Judiciary Committee to Investigate 'Cuties'                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        Senator Kelly Loeffler wrote that the Netflix film "has raised new concerns about the entertainment industry's complicity in sexualizing children, which also fuels predators."                   
+                    </p>
+                </div>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article1.jpg"          alt="article6">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">U.S.</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Georgia GOP Senator Calls for Judiciary Committee to Investigate 'Cuties'                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        Senator Kelly Loeffler wrote that the Netflix film "has raised new concerns about the entertainment industry's complicity in sexualizing children, which also fuels predators."                   
+                    </p>
+                </div>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article2.jpg"          alt="article6">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">U.S.</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Georgia GOP Senator Calls for Judiciary Committee to Investigate 'Cuties'                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        Senator Kelly Loeffler wrote that the Netflix film "has raised new concerns about the entertainment industry's complicity in sexualizing children, which also fuels predators."                   
+                    </p>
+                </div>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article3.jpg"          alt="article6">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">U.S.</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Georgia GOP Senator Calls for Judiciary Committee to Investigate 'Cuties'                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        Senator Kelly Loeffler wrote that the Netflix film "has raised new concerns about the entertainment industry's complicity in sexualizing children, which also fuels predators."                   
+                    </p>
+                </div>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/article4.jpg"          alt="article9">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">U.S.</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Georgia GOP Senator Calls for Judiciary Committee to Investigate 'Cuties'                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        Senator Kelly Loeffler wrote that the Netflix film "has raised new concerns about the entertainment industry's complicity in sexualizing children, which also fuels predators."                   
+                    </p>
+                </div>
+
+
+
             </section>
+
             <section class="col">
-                <h5>TOP STORY</h3>
+                <h6>TOP STORY</h6>
+                <div class="card my-4">
+                    <figure class="position-relative">
+                        <img class="position-relative" src="/assets/images/middle1.jpg"          alt="article6">
+                        <figcaption class="position-absolute fixed-bottom ">
+                            <a href="#">U.S.</a>
+                        </figcaption>
+                    </figure>
+                    <h5 class="card-title">
+                       <a href="#">
+                        Pelosi Is Blocking Second Skinny Stimulus Plan, Now From Moderate Dems                    
+                    </a> 
+                    </h5>
+                    <p class="card-text">
+                        "We did come down," the House Speaker said. "We can only go so far."                   
+                    </p>
+                </div>
+                <h6>MY TURN</h6>
+                <div class="row">
+                    <div class="col">
+                        <figure>
+                            <img class="position-relative" width=155px src="/assets/images/middle2.jpg"          alt="article6">
+                        </figure>
+                        <h6>
+                           <a href="#">
+                            "This Is What It's Like to Be Sapiosexual"                   
+                            </a>
+                        </h6> 
+                    </div>
+                    <div class="col mr-0">
+                        <figure>
+                            <img width=155px src="/assets/images/middle4.jpg"          alt="article6">
+                        </figure>
+                        <h6>
+                           <a href="#">
+                            'I'm Working on a COVID-19 Vaccine'                   
+                        </a>
+                        </h6> 
+                    </div>
+                    <div class="col">
+                        <figure>
+                            <img width=155px src="/assets/images/middle3.jpg"          alt="article6">
+                        </figure>
+                        <h6>
+                           <a href="#">
+                            'I'm a Marriage Therapist, Here Are 3 Ways Marriage Has Changed'                   
+                        </a>
+                        </h6> 
+                    </div>
+
+                <h6>CULTUREL AND TRAVEL</h6>
+                <div class="row">
+                    <div class="col">
+                        <figure class="position-relative">
+                            <img class="position-relative" width=155px src="/assets/images/middle5.jpg"          alt="article6">
+                            <figcaption class="position-absolute fixed-bottom ">
+                                <a href="#">TRAVEL</a>
+                            </figcaption>
+                        </figure>
+                        <h6>
+                           <a href="#">
+                            "This Is What It's Like to Be Sapiosexual"                   
+                        </a>
+                        </h6> 
+                    </div>
+                    <div class="col mr-0">
+                        <figure class="position-relative">
+                            <img class="position-relative" width=155px src="/assets/images/middle6.jpg"          alt="article6">
+                            <figcaption class="position-absolute fixed-bottom ">
+                                <a href="#">INDIA</a>
+                            </figcaption>
+                        </figure>
+                        <h6>
+                           <a href="#">
+                            'I'm Working on a COVID-19 Vaccine'                   
+                        </a>
+                        </h6> 
+                    </div>
+                    <div class="col">
+                        <figure class="position-relative">
+                            <img class="position-relative" width=155px src="/assets/images/middle7.jpg"          alt="article6">
+                            <figcaption class="position-absolute fixed-bottom ">
+                                <a href="#">MUSEUMS</a>
+                            </figcaption>
+                        </figure>
+                        <h6>
+                           <a href="#">
+                            'I'm a Marriage Therapist, Here Are 3 Ways Marriage Has Changed'                   
+                        </a>
+                        </h6> 
+                    </div>
+                    
+                </div>
             </section>
+            
             <section class="col">
                 <h5>THE DEBATE</h3>
+                    
             </section>
 
         </div>
