@@ -3,9 +3,18 @@
   Navigation Bar
   ========================================
 */
+
 .container{
     max-width: 1300px;
 
+}
+
+/* #test {
+    min-width: 400px;
+} */
+.logo {
+    min-width: 150px;
+      
 }
 
 .firstNav .nav-item .nav-link  {
@@ -16,7 +25,7 @@
 }
 
 .firstNav .nav-item i  {
-    line-height: 0.5rem; 
+    line-height: 0.5rem;
 }
 
  .firstNav .nav-item .nav-link:hover {
@@ -33,3 +42,7 @@
     color: #f72210; 
 } */
 
+.badge {
+    padding-top: 0.4em;
+    font-size: 100%
+}
