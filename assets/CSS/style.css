@@ -7,14 +7,20 @@ body {
     max-width: 1300px;
     margin: 0 auto;
 }
+
 img {
     cursor: pointer;
 }
+
 h6 {
     font-family: "Roboto Condensed", sans-serif;;
     font-weight: 700;
     color: rgba(3,3,3,0.4);
     line-height: 16px;
+}
+
+.container {
+    max-width: 1300px;
 }
 
 /*
@@ -23,23 +29,20 @@ h6 {
   ========================================
 */
 
-.container{
-    max-width: 1300px;
-
-}
-
-/* #test {
-    min-width: 400px;
-} */
 .logo {
     min-width: 150px;
       
 }
 
+a.badge-warning:focus, a.badge-warning:hover {
+    background-color: #ffc107
+}
+
 .firstNav .nav-item .nav-link  {
-    line-height: 0.5rem;
+    line-height: 0.2rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
     color: #000 ;
-    font-weight: 700;
     font-size: 1rem; 
 }
 
@@ -52,11 +55,12 @@ h6 {
 }
 
 .secondNav .nav-item .nav-link {
-    font-size: 0.                   rem;
     color: #807f84;
-    font-weight: 700;
+ 
 }
-
+.logonav-hover:hover{
+    text-decoration-line: none;
+}
 /* .secondNav .nav-item .nav-link:hover {
     color: #f72210; 
 } */
@@ -74,7 +78,7 @@ h6 {
 
 
 figcaption a {
-    font-weight: 700;
+    /* font-weight: 700; */
     color: #f72210;
     padding: 0.4rem 1.3rem;
     background-color: rgba(255,255,255,.9)
@@ -95,7 +99,7 @@ figcaption a:hover {
 .card-title a {
     font-size: 24px;
     line-height: 24px;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: #000;
 }
 
