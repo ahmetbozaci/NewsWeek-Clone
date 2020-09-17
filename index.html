@@ -10,25 +10,29 @@
 </head>
 <body class="bg-light">
 
-    <header class="mx-5">
-        <div class="container-fluid">
+    <header>
+        
+<!--LOGO-->
+        <div class="container">
+
             <div class="row bg-danger align-items-center justify-content-between">
-                <div class="col-3 text-white d-none d-md-none d-sm-none d-lg-block">
-                        <ul class="nav pl-2">
-                            <li>
-                                <a class="text-white" href="#">
-                                    <img width="24px" src="/assets/images/weather-icon.png" alt="weather-icon"> 
-                                    <span>27&#xb0; Eskisehir, TR &gt;</span>
-                                </a>
-                            </li>
-                            <li>
-                                <span>Wed, Sep 16,2020</span>
-                            </li>
-                        </ul>
+
+                <!--weather-->
+                <div class="col-3 text-white d-none d-lg-block">
+                    <a class="text-white" href="#">
+                        <img width="24px" src="/assets/images/weather-icon.png" alt="weather-icon"> 
+                        <span>27&#xb0; Eskisehir, TR &gt;</span>
+                    </a>
+                    <span class="d-block">Wed, Sep 16,2020</span>
                 </div>
-                <div class="col-lg-4 col-1 mx-lg-auto logo"><img src="/assets/images/logo.svg" alt="Newsweek logo"></div>
-                <div class="col-lg-3 col-1">
-                    <div class="d-flex mt-lg-5 my-3 justify-content-end align-items-center">
+
+                <!--logo-->
+                <div class="col-lg-4 col-1 mx-lg-auto logo">
+                    <img src="/assets/images/logo.svg" alt="Newsweek logo">
+                </div>
+
+                <!--login-->
+                <div class="col-lg-3 col-1 d-flex mt-lg-5 my-3 justify-content-end align-items-center">
                         <a class="text-white d-none d-md-block d-lg-block pr-3" href="#">LOGIN</a>
                         <a class="text-white pr-2 d-none d-md-none d-block" href="#">
                             <i class="far fa-user-circle"></i>
@@ -37,29 +41,35 @@
                         <a class="text-white d-lg-none d-md-block d-sm-block pl-3" href="#">
                             <i class="fas fa-bars fa-lg"></i>
                         </a>
-                    </div>
                 </div>  
             </div>
         </div>
 
+<!--NAVBARS-->
         <div class="d-none d-lg-block text-nowrap ">
+
+            <!--Navbar-1-->  
             <nav class="navbar navbar-light bg-white text-dark navbar-expand-sm px-1">
                 <ul class="navbar-nav firstNav py-2">
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">U.S.</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">World</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">Business</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">Tech & Science</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">Culture</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">Newsgeek</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">Sports</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">Health</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">The Debate</a></li>
-                    <li class="nav-item"><a class="nav-link   border-right" href="#">Vantage</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">U.S.</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">World</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">Business</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">Tech & Science</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">Newsgeek</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">Sports</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">Health</a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">The Debate
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link border-right" href="#">Vantage</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
                     <li class="nav-item"><a class="nav-link disabled pt-1" href="#">Search 
-                        <i  class="fas fa-search"></i></a></li>
+                        <i class="fas fa-search"></i>
+                    </a></li>
                 </ul>
             </nav>
+
+            <!--Navbar-2-->
             <nav class="navbar secondNav navbar-light bg-white navbar-expand-sm border-top border-bottom py-0">
                 <ul class="navbar-nav">
                     <li class="nav-item ml-3 mr-2"><a href="#" class="nav-link active">TRENDING</a></li>
@@ -73,10 +83,11 @@
         </div>
     </header>
        
-
-    <main class=" mx-5 bg-white pt-4">
+<!--MAİN-->
+    <main class="bg-white pt-4">
         <div class="row container mx-2 lg-justify-content-between">
-
+            
+            <!--Featured Stories-->
             <section class="col">
                 <h6>FEATURED STORIES</h6>
                 <div class="card my-4">
@@ -228,6 +239,7 @@
 
             </section>
 
+            <!--Top Story-->
             <section class="col">
                 <h6>TOP STORY</h6>
                 <div class="card my-4">
@@ -323,13 +335,15 @@
                     
                 </div>
             </section>
-            
+
+            <!--The Debate-->
             <section class="col">
                 <h5>THE DEBATE</h3>
                     
             </section>
 
         </div>
+
     </main>
    
 
