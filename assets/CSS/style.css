@@ -78,7 +78,6 @@ a.badge-warning:hover {
 */
 
 figcaption a {
-  /* font-weight: 700; */
   color: #f72210;
   padding: 0.4rem 1.3rem;
   background-color: rgba(255, 255, 255, 0.9);
@@ -96,8 +95,6 @@ figcaption a {
 .card-title a {
   font-size: 24px;
   line-height: 24px;
-
-  /* font-weight: 700; */
   color: #000;
 }
 
@@ -107,7 +104,7 @@ figcaption a:hover {
   
 }
 
-.card-title a:hover {
+.hover-line-red:hover {
   text-decoration-color: #f72210;
 }
 
@@ -126,4 +123,12 @@ figcaption a:hover {
 .hover-noline:hover {
     text-decoration-line: none;
 
+}
+
+.border-special1 {
+    border-top: 3px solid #dee2e6;
+}
+.border-special2 {
+    border-bottom: 3px solid #dee2e6;
+  
 }
