@@ -82,6 +82,7 @@ figcaption a {
   color: #f72210;
   padding: 0.4rem 1.3rem;
   background-color: rgba(255, 255, 255, 0.9);
+  width: 25%;
 }
 
 .fixed-bottom {
@@ -103,6 +104,7 @@ figcaption a {
 figcaption a:hover {
   text-decoration-line: none;
   color: #f72210;
+  
 }
 
 .card-title a:hover {
@@ -112,4 +114,16 @@ figcaption a:hover {
 .card-text {
   font-size: 15px;
   color: #333;
+}
+
+.culturel-pict {
+    background-color: rgba(194,212,215);
+    color: black;
+    font-size: 13px;
+    padding: 0.3rem 0.4rem;
+}
+
+.hover-noline:hover {
+    text-decoration-line: none;
+
 }
