@@ -147,8 +147,8 @@ figcaption a:hover {
 
 @media  screen and (min-width: 768px){
 
-.border-right li a {
-  border-right: 1px solid #807f84;
-  padding: 0 15px
+.border-special li a {
+  border-right: 1px solid #d3d2d6;
+  padding: 0 0.5rem;
 }
 }
