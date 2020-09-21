@@ -133,8 +133,22 @@ figcaption a:hover {
   
 }
 
-.test {
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.newsletter {
   background: url(/assets/images/subs2.png) center center / cover no-repeat;
   max-width: 191px;
  
+}
+
+@media  screen and (min-width: 768px){
+
+.border-right li a {
+  border-right: 1px solid #807f84;
+  padding: 0 15px
+}
 }
