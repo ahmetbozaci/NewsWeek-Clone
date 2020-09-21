@@ -132,3 +132,9 @@ figcaption a:hover {
     border-bottom: 3px solid #dee2e6;
   
 }
+
+.test {
+  background: url(/assets/images/subs2.png) center center / cover no-repeat;
+  max-width: 191px;
+ 
+}
