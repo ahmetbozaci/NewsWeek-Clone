@@ -141,7 +141,7 @@ figcaption a:hover {
 */
 
 .newsletter {
-  background: url(./assets/images/subs2.png) center center / cover no-repeat;
+  background: url(assets/images/subs2.png) center center / cover no-repeat;
   max-width: 191px;
 }
 
