@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://ahmetbozaci.github.io/NewsWeek-Clone/)
 
 ## Project Requirements
 
@@ -22,7 +22,7 @@
 
 👤 **Ahmet Bozacı**
 
-- Github: [@ahmetbozaci ](https://github.com/ahmetbozaci )
+- Github: [@ahmetbozaci ](https://github.com/ahmetbozaci)
 - Twitter: [@ahmtbozaci](https://twitter.com/ahmtbozaci)
 - Linkedin: [linkedin](https://www.linkedin.com/in/ahmetbozaci/)
 
