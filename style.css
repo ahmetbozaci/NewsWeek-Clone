@@ -34,7 +34,8 @@ h6 {
   min-width: 150px;
 }
 
-a.badge-warning:focus, a.badge-warning:hover {
+a.badge-warning:focus,
+a.badge-warning:hover {
   background-color: #ffc107;
 }
 
@@ -169,6 +170,7 @@ figcaption a:hover {
     margin-left: auto;
     min-width: 290px;
   }
+
   .sponsored-width2 {
     width: 75%;
   }
