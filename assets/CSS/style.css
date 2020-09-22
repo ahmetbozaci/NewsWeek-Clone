@@ -39,9 +39,6 @@ a.badge-warning:hover {
 }
 
 .firstNav .nav-item .nav-link {
-  line-height: 0.2rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
   color: #000;
   font-size: 1rem;
 }
@@ -61,10 +58,6 @@ a.badge-warning:hover {
 .logonav-hover:hover {
   text-decoration-line: none;
 }
-
-/* .secondNav .nav-item .nav-link:hover {
-    color: #f72210;
-} */
 
 .badge {
   padding-top: 0.4em;
@@ -101,7 +94,6 @@ figcaption a {
 figcaption a:hover {
   text-decoration-line: none;
   color: #f72210;
-  
 }
 
 .hover-line-red:hover {
@@ -114,32 +106,34 @@ figcaption a:hover {
 }
 
 .culturel-pict {
-    background-color: rgba(194,212,215);
-    color: black;
-    font-size: 13px;
-    padding: 0.3rem 0.4rem;
+  background-color: rgba(194, 212, 215);
+  color: black;
+  font-size: 13px;
+  padding: 0.3rem 0.4rem;
 }
 
 .hover-noline:hover {
-    text-decoration-line: none;
-
+  text-decoration-line: none;
 }
 
 .border-special1 {
-    border-top: 3px solid #dee2e6;
+  border-top: 3px solid #dee2e6;
 }
+
 .border-special2 {
-    border-bottom: 3px solid #dee2e6;
-  
+  border-bottom: 3px solid #dee2e6;
 }
+
 .debate-img {
   width: 63px;
   height: 63px;
 }
+
 .vs-layout {
-  left: calc(50% - 25px); 
-  margin-bottom:125px;
+  left: calc(50% - 25px);
+  margin-bottom: 125px;
 }
+
 /*
   ========================================
   Footer
@@ -149,7 +143,6 @@ figcaption a:hover {
 .newsletter {
   background: url(/assets/images/subs2.png) center center / cover no-repeat;
   max-width: 191px;
- 
 }
 
 /*
@@ -157,27 +150,25 @@ figcaption a:hover {
   Media Query
   ========================================
 */
-@media  screen and (min-width: 768px){
 
-.border-special li a {
-  border-right: 1px solid #d3d2d6;
-  padding: 0 0.5rem;
+/* Footer */
+@media screen and (min-width: 768px) {
+  .border-special li a {
+    border-right: 1px solid #d3d2d6;
+    padding: 0 0.5rem;
   }
 }
 
-@media  screen and (max-width: 992px){
-
-.sponsored-width {
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-  min-width: 290px;
-  
+/* Main */
+@media screen and (max-width: 992px) {
+  .sponsored-width {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 290px;
   }
 
-
-.sponsored-width2 {
-  width: 75%;
-  
+  .sponsored-width2 {
+    width: 75%;
   }
 }
