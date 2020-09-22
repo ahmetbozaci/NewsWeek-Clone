@@ -132,7 +132,10 @@ figcaption a:hover {
     border-bottom: 3px solid #dee2e6;
   
 }
-
+.debate-img {
+  width: 63px;
+  height: 63px;
+}
 /*
   ========================================
   Footer
@@ -145,10 +148,32 @@ figcaption a:hover {
  
 }
 
+/*
+  ========================================
+  Media Query
+  ========================================
+*/
 @media  screen and (min-width: 768px){
 
 .border-special li a {
   border-right: 1px solid #d3d2d6;
   padding: 0 0.5rem;
+  }
 }
+
+@media  screen and (max-width: 992px){
+
+.sponsored-width {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 290px;
+  
+  }
+
+
+.sponsored-width2 {
+  width: 75%;
+  
+  }
 }
