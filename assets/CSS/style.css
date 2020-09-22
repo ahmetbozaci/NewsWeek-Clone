@@ -136,6 +136,10 @@ figcaption a:hover {
   width: 63px;
   height: 63px;
 }
+.vs-layout {
+  left: calc(50% - 25px); 
+  margin-bottom:125px;
+}
 /*
   ========================================
   Footer
